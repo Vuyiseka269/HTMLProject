@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome to My World</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="stylesheet" href="Contact.css"> 
+</head>
+<body>
+    <div class="header">
+        <div class="web-tittle">
+            <h1>Welcome To My World</h1>
+        </div>
+    </div>
+    <div class="nav-bar">
+        <div class="button"><a href="index.html">About-Me</a></div>
+        <div class="button"><a href="Portfolio.html">Portfolio</a></div>
+        <div class="button"><a href="Contact.html">Contact</a></div>
+    </div>
+
+    <div class="Contact-Form">
+        <h2>Contact Form</h2>
+        <form id="contact-form">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..."required>
+        <br>
+        <input type="text" id="lname" name="lastname" placeholder="Your surname..."required>
+        <br>
+        <input type="text" id="email" name="email" placeholder="Your email..."required>
+        <br>
+        <input type="text" id="phone" name="phone" placeholder="Phone."required>
+        <br>
+        <input type="text" id="message" name="message" placeholder="Message..." style="height: 80px;">
+        <br>
+        <div class="g-recaptcha" data-sitekey="6LdelNgUAAAAAEp7iN6VOypYbu4y3He46jloXOlt"></div>
+        <br>
+        <input type="submit" name="submit" value="Submit" class="submit-btn">
+        </div>
+        </form>
+    
+      <div class="queries">
+       <h2>For any queries Contact</h2>
+       <p>Call: 021 654 8956
+          Email: vuyisekarawule@gmail.com
+       </p>
+      </div>
+
+    <div class="social-media-icons">
+        <a href="https://en-gb.facebook.com/login/"> <img src="fb.png" width="60px" height="60px"></a>
+        <a href="https://twitter.com/login"> <img src="tt.png" width="60px" height="60px"></a>
+        <a href="https://www.linkedin.com/login"> <img src="IN.png" width="60px" height="60px"></a>
+        <a href="http://www.google.com/"> <img src="gg.jpg" width="60px" height="60px"></a>
+    </div>
+<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

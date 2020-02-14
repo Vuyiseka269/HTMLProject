@@ -1,0 +1,93 @@
+*{
+    margin: 2px;
+    padding: 2px;
+    border: rgb(252, 234, 234);
+    min-width: auto;
+    min-height: auto;
+    
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(image5.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+    height: auto
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-size: 26px;
+    font-style: oblique;
+    color: lightgoldenrodyellow;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: ivory;
+}
+
+.button{
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(99, 195, 212);
+    border: none;
+    border-radius: 15px;
+    align-items: center;
+      }
+      
+.button:hover {background-color: #668867}
+
+.button a:active {
+    color: rgba(241, 241, 241, 0.904);
+}
+
+
+.button{
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: rgb(13, 115, 133);
+  background-color: rgb(18, 59, 105);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(36, 24, 24);
+  align-items: center;
+}
+
+.button:hover {background-color: #3e8e41}
+
+
+.social-media-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+.flexcontainer {
+    padding-left: 500px;
+    justify-content: space-evenly;
+    
+}
+img{
+    border-radius: 50%;
+}
+
+.About-Me{
+    margin-right: 400px;
+    color: blanchedalmond;
+}
