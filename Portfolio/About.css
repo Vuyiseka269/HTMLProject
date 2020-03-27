@@ -105,9 +105,9 @@ h2{
 
 .text{
     position: absolute;
-    bottom: 150px;
+    bottom: 300px;
     margin-left: 200px;
     font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(70, 10, 10);
+    color: white;
 }
